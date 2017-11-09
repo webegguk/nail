@@ -1,9 +1,13 @@
 {
-    "amqp": "amqp://localhost",
-    "queue": "nodemailer-amqp",
-  
-    "server": {
-      "port": 12345,
-      "host": "127.0.0.1"
+  "amqp": "amqp://localhost",
+  "queue": "nodemailer-amqp",
+  "server": {
+    "port": 123,
+    "host": "smtp.example.com",
+    "user": {
+      "name": "exampleuser",
+      "pass": "examplepass"
     }
-  }
+  },
+  "emails": "foo@example.com, faa@gmail.co.uk"
+}
